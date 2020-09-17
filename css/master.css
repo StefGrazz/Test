@@ -1,0 +1,45 @@
+body{
+  font-family: 'Montserrat', sans-serif;
+  background-color: rgb(255, 255, 0);
+  text-align: center;
+}
+
+.content{
+  min-height: 50vh;
+}
+
+figure{
+  width: 100vw;
+  border: 6px solid #000000;
+}
+
+figure img{
+  width: 100%;
+}
+
+header{
+  background-color: #000000;
+  color: #ffff00
+  stylesheet: none;
+  align-items: flex-end;
+}
+
+section{
+  background-color: #000000;
+  color: #ffffff;
+  max-width: 840px;
+  margin: 0 auto;
+  scroll-snap-type: y proximity;
+}
+
+section div{
+  scroll-snap-align: start;
+}
+
+header ul{
+  display: flex
+}
+
+header li{
+  margin: 8px;
+}
