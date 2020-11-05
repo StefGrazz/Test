@@ -1,6 +1,6 @@
 body{
   font-family: 'Montserrat', sans-serif;
-  background-color: rgb(255, 255, 0);
+  background-color: #ffcc77;
   text-align: center;
 }
 
@@ -18,8 +18,8 @@ figure img{
 }
 
 header{
-  background-color: #000000;
-  color: #ffff00
+  background-color: #111111;
+  color: #000000
   stylesheet: none;
   align-items: flex-end;
 }
